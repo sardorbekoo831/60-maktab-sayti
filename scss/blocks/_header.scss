@@ -1,0 +1,93 @@
+// NOUTBOOK KAMYUTER KURINISH QISMI QISMI
+
+header {
+  width: 1240px;
+  height: 100px;
+  background-color: #1d1d2c;
+  margin-top: 50px;
+  display: flex;
+}
+
+header .logo {
+  margin-top: 10px;
+  margin-left: 100px;
+}
+
+header .logo h1 {
+  color: #fff;
+}
+
+header ul {
+  display: flex;
+  gap: 40px;
+  margin-top: 40px;
+  margin-left: 100px;
+}
+
+header ul li a {
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+header ul li a:hover {
+  color: red;
+}
+
+header form select {
+  margin-top: 40px;
+  margin-left: 50px;
+  width: 150px;
+  height: 30px;
+  border-radius: 20px;
+  background: #dad0d0;
+}
+
+header form select option {
+  font-size: 24px;
+  margin-left: 50px;
+  //   color: #fff;
+}
+
+.burger__img {
+  margin-left: 650px;
+  display: none;
+  color: white;
+  margin-top: 30px;
+}
+
+// PLANSHET KURINISHI QISMI
+
+@media only screen and (max-width: 769px) {
+  .contener {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .header ul li {
+    position: relative;
+  }
+}
+
+// TELIFON KURINISHI QISMI
+
+@media only screen and (max-width: 376px) {
+  .contener {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  header ul li {
+    display: none;
+  }
+
+  header form select {
+    display: none;
+  }
+
+  .burger__img {
+    display: block;
+  }
+}
